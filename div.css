@@ -1,0 +1,11 @@
+div{
+      background-color:green;
+      height:300px;
+      width:300px;
+      border:1px solid;
+      float:left;
+    }
+div#first{
+ background-color:blue;
+ width:200px;
+}
