@@ -1,11 +1,15 @@
-div{
-      background-color:green;
-      height:300px;
-      width:300px;
-      border:1px solid;
-      float:left;
-    }
-div#first{
- background-color:blue;
- width:200px;
+
+.box {
+  border: 1px solid;
+  float: left;
+}
+
+.box-1 {
+  background-color: green;
+  width: 300px;
+}
+
+.box-2 {
+  background-color: blue;
+  width: 200px;
 }
