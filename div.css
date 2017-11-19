@@ -1,7 +1,14 @@
 
+.outer-box {
+  margin: auto; /* this gives same distance from both edges (centered) */
+  width: 504px; /* box-1 + box-2 + their borders. */
+}
+
 .box {
   border: 1px solid;
   float: left;
+  height: 200px;
+  text-align: center;
 }
 
 .box-1 {
