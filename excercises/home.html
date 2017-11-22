@@ -9,9 +9,22 @@
 
     <div id="menu">
       <ul>
+
+        <!--
+        You have forgotten the closing tags of the <a> tags.
+        This will mess up most of you page.
+        -->
         <li><a href="">Acasa</li>
         <li><a href="">Ramurile</li>
-          <!-- Why don`t appear this? Start-->
+
+        <!--
+        No element except <li> may exist inside of a <ul> or <ol>
+        Meaning you can not put another <ul> inside of a <ul>, unless
+        it is first in a <li>.
+
+        Below is an example of the correct way.
+        -->
+        <li>
           <ul>
             <li><a href="">Infanterie</a></li>
             <li><a href="">Artilerie</a></li>
@@ -21,13 +34,39 @@
             <li><a href="">Parasutisti</a></li>
             <li><a href="">Geniu</a></li>
           </ul>
-          <!-- End -->
+        </li>
+
+        <!-- Again, you're missing closing tags on the <a> tags -->
         <li><a href="">Lista echipamente</li>
         <li><a href="">Galerie</li>
+
+          <!--
+          Here you have another problem, you're putting a <ul>
+          directly inside another <ul>. First you need an <li>.
+          -->
           <ul>
             <li><a href="">Poze</a></li>
             <li><a href="">Video</a></li>
           </ul>
+
+          <!--
+          This is BAD:
+          <ul>
+            <li></li>
+            <li></li>
+            <ul>..</ul>
+          </ul>
+
+          This is GOOD:
+          <ul>
+            <li></li>
+            <li></li>
+            <li>
+              <ul>..</ul>
+            </li>
+          </ul>
+          -->
+
       </ul>
     </div>
 
