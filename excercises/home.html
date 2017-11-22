@@ -14,30 +14,9 @@
         You have forgotten the closing tags of the <a> tags.
         This will mess up most of you page.
         -->
-        <li><a href="">Acasa</li>
-          <!-- how cand i made when u put the mouse on the box "Ramurile" (without click) appear an submenu and appear this
-       <li>
-          <ul>
-            <li><a href="">Infanterie</a></li>
-            <li><a href="">Artilerie</a></li>
-            <li><a href="">Tancuri</a></li>
-            <li><a href="">Rachete si Artilerie Antiaeriana</a></li>
-            <li><a href="">Vanatori de munte</a></li>
-            <li><a href="">Parasutisti</a></li>
-            <li><a href="">Geniu</a></li>
-          </ul>
-        </li>
-        -->
-        <li><a href="">Ramurile</li>
-
-        <!--
-        No element except <li> may exist inside of a <ul> or <ol>
-        Meaning you can not put another <ul> inside of a <ul>, unless
-        it is first in a <li>.
-
-        Below is an example of the correct way.
-        -->
+        <li><a href="">Acasa</a></li>
         <li>
+          <a href="">Ramurile</a>
           <ul>
             <li><a href="">Infanterie</a></li>
             <li><a href="">Artilerie</a></li>
@@ -50,18 +29,19 @@
         </li>
 
         <!-- Again, you're missing closing tags on the <a> tags -->
-        <li><a href="">Lista echipamente</li>
-        <li><a href="">Galerie</li>
+        <li><a href="">Lista echipamente</a></li>
+        <li><a href="">Galerie</a></li>
 
           <!--
           Here you have another problem, you're putting a <ul>
           directly inside another <ul>. First you need an <li>.
           -->
+        <li>
           <ul>
             <li><a href="">Poze</a></li>
             <li><a href="">Video</a></li>
           </ul>
-
+        </li>
           <!--
           This is BAD:
           <ul>
