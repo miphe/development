@@ -13,7 +13,7 @@ There is no point in writing more tags than you need. Sometimes when you are try
 
 ### All tags must be properly closed
 
-There are tags that require an opening <myTag> tag, and a closing </myTag> tag. If you do not add closing tags properly to all these tags, your document (web page) will act very strangely and probably not work as you expect. Make sure that you close all tags that you open.
+There are tags that require an opening `<myTag>` tag, and a closing `</myTag>` tag. If you do not add closing tags properly to all these tags, your document (web page) will act very strangely and probably not work as you expect. Make sure that you close all tags that you open.
 
 Other tags are self-closing tags, they do not require a closing tag because they close themselves when they are opened. Like this:
 
@@ -39,13 +39,13 @@ In earlier days when HTML was new, there were plenty of HTML tags that were made
 
 ### Guidelines
 
-Each tag that you write has some default/standard CSS already attached to it. For example the <h1> tag is bold and has large text. An important CSS property to learn about is the `display` property. We will go through a lot about the display property later, but for now we'll just say that some tags has by default the display property set to `block`, others has it by default set to `inline`.
+Each tag that you write has some default/standard CSS already attached to it. For example the `<h1>` tag is bold and has large text. An important CSS property to learn about is the `display` property. We will go through a lot about the display property later, but for now we'll just say that some tags has by default the display property set to `block`, others has it by default set to `inline`.
 
 A block element are elements that generally takes up the whole page in width, while inline elements does not. Inline elements only takes up as much space in width as the content it contains.
 
-An element that by default is `block`, is the <h1> element. If you add an <h1> element to your page, the next element will appear _below_ it. Not next to it. That means that it takes upp all of the page's width.
+An element that by default is `block`, is the `<h1>` element. If you add an `<h1>` element to your page, the next element will appear _below_ it. Not next to it. That means that it takes up all of the page's width.
 
-An element that by default is `inline`, is the <em> element. If you wrap a word with an <em> element, the next word will simply appear next to it, without creating a new line.
+An element that by default is `inline`, is the `<em>` element. If you wrap a word with an `<em>` element, the next word will simply appear next to it, without creating a new line.
 
 As an important rule, you shall _not_ have elements that are default block elements inside of elements that are default inline elements. This would be like putting a wooden box inside of a balloon. But keeping a balloon inside a wooden box is no problem.
 
