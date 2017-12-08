@@ -1,2 +1,2 @@
-# development
-Notes and links about the beginning of web development
+# Development
+Notes and links about the beginning of web development.
