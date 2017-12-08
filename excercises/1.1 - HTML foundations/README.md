@@ -50,7 +50,7 @@ As an example, consider the following code.
 
 In the above example, we are only using non-semantic HTML tags (div, span). They are considered non-semantic because they don't really have much meaning. A `div` and a `span` doesn't mean much to a robot when it's trying to read your web page, therefore it will not know if your title is a title, or if your acronym is an acronym, to the robot it is just text and every word is just as important as the other. This is a problem.
 
-### Excercise
+### Excercise 1.1.1
 
 Create an HTML file and a CSS file with the example above, but where you have used the _correct semantic tags_ instead of the non-semantic tags `div` and `span`. By thinking about what 'role' the text has in it's context, you can figure out which HTML tag would be appropriate.
 
