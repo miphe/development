@@ -1,7 +1,7 @@
 
-# HTML fundamentals
+# HTML Semantics
 
-_Learn the fundamentals about HTML and how to correctly write markup._
+_Learn the fundamentals about HTML and how to correctly write meaningful markup._
 
 HTML - Hyper Text Markup Language - is a simple tag language that lets you declare what content your web page has. It's a way to 'tag', or 'mark' up your content so that a browser, bots and non-human things can understand what it is.
 
