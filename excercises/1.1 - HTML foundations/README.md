@@ -22,7 +22,7 @@ As an example, consider the following code.
   <head>...</head>
   <body>
     <div class="title">Hello my friend</div>
-    <div> class="text">It was a lot time since I wrote, I have been finding it difficult to make time.</div>
+    <div> class="text">It has been a long time since I wrote, I have been finding it difficult to make time.</div>
     <div class="text">
       My faculty here at <span class="acronym">SUOAE</span> are keen on keeping us busy at all times. <br /> I am learning a lot about biology and chemistry, this is <span class="emphasize">imperative</span> in my research on the creation of life.
     </div>
