@@ -1,0 +1,12 @@
+.title {
+  font-size: 2rem;
+}
+.text {
+  font-size: 1.2rem;
+}
+.acronym {
+  color: #999;
+}
+.emphasize {
+  text-style: italic;
+}
